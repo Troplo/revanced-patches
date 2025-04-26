@@ -164,6 +164,12 @@ public final class app/revanced/patches/duolingo/debug/EnableDebugMenuPatchKt {
 	public static final fun getEnableDebugMenuPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/duolingo/unlocksuper/UnlockDuolingoSuperPatch : app/revanced/patcher/patch/BytecodePatch {
+	public static final field INSTANCE Lapp/revanced/patches/duolingo/unlocksuper/UnlockDuolingoSuperPatch;
+	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
+	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
+}
+
 public final class app/revanced/patches/facebook/ads/mainfeed/HideSponsoredStoriesPatchKt {
 	public static final fun getHideSponsoredStoriesPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
